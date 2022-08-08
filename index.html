@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcial 1 - 090513-3011</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-   
+    <title>Parcial 1 - 090513-3011</title>
     <meta name="description" content="TechStore, tienda de productos y soluciones tecnologicas">
     <meta name="keywords" content="Tecnologia, tienda, productos, software, hardware, computadoras, ciudad de guatemala, guatemala, gaming, muebles, oficina, monitores">
     <meta name="author" content="Francisco Grijalva">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+  <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+          <div class="logo">
+              <h1 class="text-light"><a href="index.html"><span>TechStore</span></a></h1>
+          </div>
+          <nav id="navbar" class="navbar">
+              <ul>
+                  <li><a class="nav-link scrollto active" href="#portada">Bienvenidos</a></li>
+                  <li><a class="nav-link scrollto" href="#about">Sobre Nosotros</a></li>
+                  <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+                  <li class="dropdown"><a href="#"><span>Productos</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="#">Computadoras</a></li>
+                      <li class="dropdown"><a href="#"><span>Componentes</span> <i class="bi bi-chevron-right"></i></a>
+                        <ul>
+                          <li><a href="#">Procesadores</a></li>
+                          <li><a href="#">Almacenamiento</a></li>
+                          <li><a href="#">Motherboards</a></li>
+                          <li><a href="#">Fuentes Alimentacion</a></li>
+                          <li><a href="#">Accesorios</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Gaming</a></li>
+                      <li><a href="#">Monitores</a></li>
+                      <li><a href="#">Muebles</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="nav-link scrollto" href="#footer">Contacto</a></li>
+                  <li><a class="getstarted scrollto" href="">Registrate</a></li>
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+      </div>
+  </header>
 
-    <header id="header" class="fixed-top d-flex align-items-center">
-        <div class="container d-flex align-items-center justify-content-between">
-            <div class="logo">
-                <h1 class="text-light"><a href="index.html"><span>TechStore</span></a></h1>
-            </div>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="#portada">Bienvenidos</a></li>
-                    <li><a class="nav-link scrollto" href="#about">Sobre Nosotros</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-                    <li class="dropdown"><a href="#"><span>Productos</span> <i class="bi bi-chevron-down"></i></a>
-                      <ul>
-                        <li><a href="#">Computadoras</a></li>
-                        <li class="dropdown"><a href="#"><span>Componentes</span> <i class="bi bi-chevron-right"></i></a>
-                          <ul>
-                            <li><a href="#">Procesadores</a></li>
-                            <li><a href="#">Almacenamiento</a></li>
-                            <li><a href="#">Motherboards</a></li>
-                            <li><a href="#">Fuentes Alimentacion</a></li>
-                            <li><a href="#">Accesorios</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">Gaming</a></li>
-                        <li><a href="#">Monitores</a></li>
-                        <li><a href="#">Muebles</a></li>
-                      </ul>
-                    </li>
-                    <li><a class="nav-link scrollto" href="#footer">Contacto</a></li>
-                    <li><a class="getstarted scrollto" href="">Registrate</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-        </div>
-    </header>
-
-    <section id="portada" class="d-flex align-items-center">
-
+  <section id="portada" class="d-flex align-items-center">
         <div class="container">
           <div class="row gy-4">
             <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
@@ -67,155 +67,148 @@
             </div>
           </div>
         </div>
-      </section>
+  </section>
 
-    <main id="main"> 
+  <main id="main"> 
     <section id="about" class="about">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
-              <img src="assets/img/about.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-lg-6 pt-5 pt-lg-0">
-              <h3>Quines somos</h3>
-              <p>Somos la empresa numero uno en el país, dedicada a la venta de productos y soluciones tecnologicas.</p>
-              <div class="row">
-                <div class="col-md-6" data-aos="fade-up">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Misión</h4>
-                  <p>Compartir nuestra pasión por la tecnología y simplificar y alegrar tu vida.</p>
-                </div>
-                <div class="col-md-6">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Visión</h4>
-                  <p>Ser tu centro de soluciones tecnológicas.</p>
-                </div>
-              </div>
-            </div>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
+            <img src="assets/img/about.png" class="img-fluid" alt="">
           </div>
-        </div>
-      </section>
-
-      <section id="services" class="services section-bg">
-        <div class="container">
-  
-          <div class="section-title">
-            <h2>Nuestros servicios</h2>
-            <p>Todo lo que buscas lo encuentras acá</p>
-          </div>
-  
-          <div class="row">
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4 class="title"><a href="">Computadoras</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4 class="title"><a href="">Video</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4 class="title"><a href="">Gaming</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
-              </div>
-            </div>
-  
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4 class="title"><a href="">Muebles</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-              </div>
-            </div>
-  
-          </div>
-        </div>
-      </section>
-    </main>  
-
-
-    <footer id="footer">
-        <div class="footer-newsletter">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <h4>Join Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                <form action="" method="post">
-                  <input type="email" name="email"><input type="submit" value="Subscribe">
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-        <div class="footer-top">
-          <div class="container">
+          <div class="col-lg-6 pt-5 pt-lg-0">
+            <h3>Quines somos</h3>
+            <p>Somos la empresa numero uno en el país, dedicada a la venta de productos y soluciones tecnologicas.</p>
             <div class="row">
-    
-              <div class="col-lg-3 col-md-6 footer-contact">
-                <h3>TechStore</h3>
-                <p>
-                  3-49 Zona 9<br>
-                  Ciudad de Guatemala<br>
-                  Guatemala<br><br>
-                  <strong>Phone:</strong> +1 5589 55488 55<br>
-                  <strong>Email:</strong> info@example.com<br>
-                </p>
+              <div class="col-md-6" data-aos="fade-up">
+                <i class="bx bx-receipt"></i>
+                <h4>Misión</h4>
+                <p>Compartir nuestra pasión por la tecnología y simplificar y alegrar tu vida.</p>
               </div>
-    
-              <div class="col-lg-3 col-md-6 footer-links">
-                <h4>Useful Links</h4>
-                <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                </ul>
+              <div class="col-md-6">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Visión</h4>
+                <p>Ser tu centro de soluciones tecnológicas.</p>
               </div>
-    
-              <div class="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                  <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                </ul>
-              </div>
-    
-              <div class="col-lg-3 col-md-6 footer-links">
-                <h4>Our Social Networks</h4>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-                <div class="social-links mt-3">
-                  <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                  <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                  <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                  <a href="#" class="google-plus"><i class="bi bi-whatsapp"></i></a>
-                  <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-    
             </div>
           </div>
         </div>
-    
-        <div class="container py-4">
-          <div class="copyright">
-            &copy; Copyright <strong><span>0905-13-3011</span></strong>. All Rights Reserved
+      </div>
+    </section>
+
+    <section id="services" class="services section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Nuestros servicios</h2>
+          <p>Todo lo que buscas lo encuentras acá</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Computadoras</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Video</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Gaming</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Muebles</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>  
+
+  <footer id="footer">
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
           </div>
         </div>
+      </div>
+    </div>
+  
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>TechStore</h3>
+            <p>
+              3-49 Zona 9<br>
+              Ciudad de Guatemala<br>
+              Guatemala<br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-whatsapp"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>0905-13-3011</span></strong>. All Rights Reserved
+      </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
